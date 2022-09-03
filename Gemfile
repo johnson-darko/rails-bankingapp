@@ -11,6 +11,16 @@ gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
+gem "figaro"
+gem 'hiredis'
+gem 'invisible_captcha'
+gem 'pagy'
+gem "recaptcha"
+gem 'redis'
+gem 'database_cleaner'
+gem 'stimulus_reflex'
+gem 'faker'
+gem 'draper'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -63,6 +73,10 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
+  gem 'binding_of_caller'
+  gem 'foreman'
+  gem 'letter_opener'
+  gem 'listen'
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
